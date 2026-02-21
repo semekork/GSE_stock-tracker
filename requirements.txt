@@ -5,4 +5,3 @@ pytz
 Flask
 gunicorn
 setuptools
-waitress

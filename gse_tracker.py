@@ -264,7 +264,7 @@ def check_market():
             log_scans(scans_to_db)
                 
     except Exception as ex:
-         logging.error(f"Market scan error: {ex}")
+        logging.error(f"Market scan error: {ex}")
 
 def run_tracker():
     logging.info("Starting GSE Stock Tracker loop...")
@@ -293,13 +293,12 @@ def run_tracker():
 # Initialize once on module load
 init_db()
 
-# Start the tracker in a background thread immediately so it runs
-# even when the app is imported by a WSGI server like Gunicorn.
-tracker_thread = threading.Thread(target=run_tracker, daemon=True)
-tracker_thread.start()
-
 if __name__ == "__main__":
-    from waitress import serve
+    init_db()
+    
+    # Start the tracker in a background thread
+    tracker_thread = threading.Thread(target=run_tracker, daemon=True)
+    tracker_thread.start()
+
     port = int(os.environ.get("PORT", 8080))
-    logging.info(f"Starting web server on port {port}...")
-    serve(app, host="0.0.0.0", port=port)
+    app.run(host="0.0.0.0", port=port)
