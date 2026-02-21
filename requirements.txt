@@ -4,3 +4,4 @@ python-dotenv
 pytz
 Flask
 gunicorn
+setuptools
