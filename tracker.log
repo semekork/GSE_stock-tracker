@@ -32,3 +32,13 @@
 2026-02-21 19:27:57,302 - INFO - BOPP: GHS 66.01 (Target: BUY at <= 65.0)
 2026-02-21 19:27:57,303 - INFO - UNIL: GHS 25.38 (Target: BUY at <= 24.5)
 2026-02-21 19:27:59,526 - INFO - Batched email alert sent for 3 stocks!
+2026-02-21 20:07:30,257 - INFO - Starting GSE Stock Tracker loop...
+2026-02-21 20:07:30,257 - INFO - Monitoring: CAL, MTNGH, SOGEGH, GCB, EGH, SCB, GOIL, TOTAL, FML, BOPP, UNIL
+2026-02-21 20:07:30,257 - INFO - --- Scanning Market ---
+2026-02-21 20:07:30,258 - INFO - Market is currently closed. Skipping scan.
+2026-02-21 20:07:30,258 - INFO - Sleeping for 60.0 minutes...
+2026-02-21 20:07:30,266 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.10.2:8080
+2026-02-21 20:07:30,266 - INFO - [33mPress CTRL+C to quit[0m
