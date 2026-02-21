@@ -1,0 +1,6 @@
+afrimarket
+requests
+python-dotenv
+pytz
+Flask
+gunicorn

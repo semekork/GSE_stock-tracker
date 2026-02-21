@@ -1,0 +1,34 @@
+2026-02-21 19:21:20,812 - INFO - Starting GSE Stock Tracker loop...
+2026-02-21 19:21:20,812 - INFO - Monitoring: CAL, MTNGH, SOGEGH
+2026-02-21 19:21:20,812 - INFO - --- Scanning Market ---
+2026-02-21 19:21:20,813 - INFO - Market is currently closed. Skipping scan.
+2026-02-21 19:21:20,813 - INFO - Sleeping for 60.0 minutes...
+2026-02-21 19:21:32,297 - INFO - Tracking stopped by user.
+2026-02-21 19:25:30,077 - INFO - Starting GSE Stock Tracker loop...
+2026-02-21 19:25:30,078 - INFO - Monitoring: CAL, MTNGH, SOGEGH, GCB, EGH, SCB, GOIL, TOTAL, FML, BOPP, UNIL
+2026-02-21 19:25:30,078 - INFO - --- Scanning Market ---
+2026-02-21 19:25:30,079 - INFO - Market is currently closed. Skipping scan.
+2026-02-21 19:25:30,079 - INFO - Sleeping for 60.0 minutes...
+2026-02-21 19:25:41,045 - INFO - Tracking stopped by user.
+2026-02-21 19:27:42,045 - INFO - Starting GSE Stock Tracker loop...
+2026-02-21 19:27:42,046 - INFO - Monitoring: CAL, MTNGH, SOGEGH, GCB, EGH, SCB, GOIL, TOTAL, FML, BOPP, UNIL
+2026-02-21 19:27:42,046 - INFO - --- Scanning Market ---
+2026-02-21 19:27:42,046 - INFO - Market is currently closed. Skipping scan.
+2026-02-21 19:27:42,046 - INFO - Sleeping for 60.0 minutes...
+2026-02-21 19:27:52,213 - INFO - Tracking stopped by user.
+2026-02-21 19:27:54,439 - INFO - --- Scanning Market ---
+2026-02-21 19:27:57,294 - INFO - CAL: GHS 0.94 (Target: SELL at >= 0.94)
+2026-02-21 19:27:57,295 - INFO - ALERT: Target hit for CAL! Perform SELL at GHS 0.94!
+2026-02-21 19:27:57,296 - INFO - MTNGH: GHS 5.47 (Target: BUY at <= 5.47)
+2026-02-21 19:27:57,296 - INFO - ALERT: Target hit for MTNGH! Perform BUY at GHS 5.47!
+2026-02-21 19:27:57,297 - INFO - SOGEGH: GHS 6.84 (Target: BUY at <= 6.84)
+2026-02-21 19:27:57,297 - INFO - ALERT: Target hit for SOGEGH! Perform BUY at GHS 6.84!
+2026-02-21 19:27:57,298 - INFO - GCB: GHS 32.03 (Target: BUY at <= 31.0)
+2026-02-21 19:27:57,299 - INFO - EGH: GHS 50.53 (Target: BUY at <= 49.0)
+2026-02-21 19:27:57,299 - INFO - SCB: GHS 29.37 (Target: BUY at <= 28.5)
+2026-02-21 19:27:57,300 - INFO - GOIL: GHS 3.96 (Target: BUY at <= 3.8)
+2026-02-21 19:27:57,301 - INFO - TOTAL: GHS 40.15 (Target: BUY at <= 39.0)
+2026-02-21 19:27:57,302 - INFO - FML: GHS 12.97 (Target: BUY at <= 12.5)
+2026-02-21 19:27:57,302 - INFO - BOPP: GHS 66.01 (Target: BUY at <= 65.0)
+2026-02-21 19:27:57,303 - INFO - UNIL: GHS 25.38 (Target: BUY at <= 24.5)
+2026-02-21 19:27:59,526 - INFO - Batched email alert sent for 3 stocks!
