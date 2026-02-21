@@ -42,3 +42,33 @@
  * Running on http://127.0.0.1:8080
  * Running on http://172.20.10.2:8080
 2026-02-21 20:07:30,266 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 20:33:03,703 - INFO - Starting GSE Stock Tracker loop...
+2026-02-21 20:33:03,704 - INFO - Monitoring: CAL, MTNGH, SOGEGH, GCB, EGH, SCB, GOIL, TOTAL, FML, BOPP, UNIL
+2026-02-21 20:33:03,704 - INFO - --- Scanning Market ---
+2026-02-21 20:33:03,705 - INFO - Market is currently closed. Skipping scan.
+2026-02-21 20:33:03,705 - INFO - Sleeping for 60.0 minutes...
+2026-02-21 20:33:03,712 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.233.6.174:8080
+2026-02-21 20:33:03,712 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 20:33:31,800 - INFO - Starting GSE Stock Tracker loop...
+2026-02-21 20:33:31,800 - INFO - Monitoring: CAL, MTNGH, SOGEGH, GCB, EGH, SCB, GOIL, TOTAL, FML, BOPP, UNIL
+2026-02-21 20:33:31,800 - INFO - --- Scanning Market ---
+2026-02-21 20:33:31,800 - INFO - Market is currently closed. Skipping scan.
+2026-02-21 20:33:31,800 - INFO - Sleeping for 60.0 minutes...
+2026-02-21 20:33:31,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.233.6.174:8080
+2026-02-21 20:33:31,805 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 20:36:07,352 - INFO - Starting GSE Stock Tracker loop...
+2026-02-21 20:36:07,352 - INFO - Monitoring: CAL, MTNGH, SOGEGH, GCB, EGH, SCB, GOIL, TOTAL, FML, BOPP, UNIL
+2026-02-21 20:36:07,352 - INFO - --- Scanning Market ---
+2026-02-21 20:36:07,353 - INFO - Market is currently closed. Skipping scan.
+2026-02-21 20:36:07,353 - INFO - Sleeping for 60.0 minutes...
+2026-02-21 20:36:07,361 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.233.6.174:8080
+2026-02-21 20:36:07,361 - INFO - [33mPress CTRL+C to quit[0m

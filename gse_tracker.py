@@ -290,13 +290,16 @@ def run_tracker():
     except Exception as e:
         logging.info(f"Tracking stopped: {e}")
 
+# Initialize once on module load
+init_db()
+
+# Start the tracker in a background thread immediately so it runs
+# even when the app is imported by a WSGI server like Gunicorn.
+tracker_thread = threading.Thread(target=run_tracker, daemon=True)
+tracker_thread.start()
+
 if __name__ == "__main__":
-    init_db()
-    
-    # Start the tracker in a background thread
-    tracker_thread = threading.Thread(target=run_tracker, daemon=True)
-    tracker_thread.start()
-    
-    # Start the Flask web server
+    from waitress import serve
     port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port)
+    logging.info(f"Starting web server on port {port}...")
+    serve(app, host="0.0.0.0", port=port)
